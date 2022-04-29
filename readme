@@ -1,0 +1,2 @@
+To run the server in your local system, use below command
+$php -S localhost:4000
