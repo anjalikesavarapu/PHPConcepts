@@ -13,7 +13,10 @@
         // Integer
         $integer = 10;
         // Decimal Number
-        $decimal = 356.89
+        $decimal = 356.89;
+        // Boolean
+        $isMale = false;
+        // null means no value
         
     ?>
 </body>
