@@ -8,7 +8,9 @@
 </head>
 <body>
     <?php 
+        //Declaring string
         $vehicleName = "cars";
+        //Declaring a number or integers
         $numberOfPeople = 20;
         echo "There are $numberOfPeople people standin there.<br>";
         echo "All the $vehicleName are going in different directions.";
