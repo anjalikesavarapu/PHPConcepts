@@ -17,8 +17,6 @@
   949  git add .
   950  git status
   951  git commit -m "Datatypes and variables files added."
-  952  git config --global user.email "you@example.com"
-  953  git config --global user.email "anjalikesavarapu@gmail.com"
   954  git config --global user.name "Anjali"
   955  git commit -m "Datatypes and variables files added."
   956  git status
