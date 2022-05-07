@@ -9,11 +9,15 @@
 <body>
     <?php
         $isMale = false;
-        if ($isMale) {
-            echo "You are male.";
+        $isTall = false;
+        if ($isMale && $isTall) {
+            echo "You are a tall male";
+        }
+        else if ($isMale || $isTall) {
+            echo "You are either male or tall";
         }
         else {
-            echo "You are not male";
+            echo "You are neither male nor tall";
         }
     ?>
 </body>
