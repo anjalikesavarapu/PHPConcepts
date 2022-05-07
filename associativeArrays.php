@@ -11,9 +11,13 @@
     <!-- Associative arrays - stores key/value pairs
         Make sure to have unique keys
     -->
+    <form action="associativeArrays.php" method="post">
+        <input type="text" name="student">
+        <input type="submit">
+    </form>
     <?php
-        $grades = array("Jim" => "A", "Tim" => "B+", "Tim" => "D");
-        echo $grades["Jim"];
+        $grades = array("Jim" => "A", "Kim" => "B+", "Tim" => "D");
+        echo $grades[$_POST["student"]];
     ?>
 </body>
 </html>
