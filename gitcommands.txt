@@ -1,40 +1,28 @@
-  933  apt-get install git
-  934  sudo apt-get install git
-  935  add-apt-repository ppa:git-core/ppa
-  936  sudo add-apt-repository ppa:git-core/ppa
-  937  sudo apt update; apt install git
-  938  git
-  939  sudp apt install git
-  940  sudo apt install git
-  941  git
-  942  cd Practice/
-  943  ls
-  944  cd PHP
-  945  git init
-  946  ls
-  947  ls -a
-  948  git status
-  949  git add .
-  950  git status
-  951  git commit -m "Datatypes and variables files added."
-  954  git config --global user.name "Anjali"
-  955  git commit -m "Datatypes and variables files added."
-  956  git status
-  957  git remote add origin https://github.com/anjalikesavarapu/PHPConcepts.git
-  958  git remote -v
-  959  git push origin master
-  960  git push-u origin master
-  961  git push -u origin master
-  962  git config -l
-  963  git push -u origin master
-  964  git config --global credential.helper cache
-  965  git add .
-  966  git status
-  967  git commit -m "All PHP Datatypes added"
-  968  git push origin master
-  969  git add .
-  970  git status
-  971  git add .
-  972  git commit -m "strings.php file added"
-  973  git push origin master
-  974  history > gitcommands.txt
+apt-get install git
+sudo apt-get install git
+add-apt-repository ppa:git-core/ppa
+sudo add-apt-repository ppa:git-core/ppa
+sudo apt update; apt install git
+git
+sudp apt install git
+sudo apt install git
+git init
+ls
+ls -a
+git status
+git add .
+git status
+git commit -m "Datatypes and variables files added."
+git config --global user.name "Anjali"
+git commit -m "Datatypes and variables files added."
+git status
+git remote add origin https://github.com/anjalikesavarapu/PHPConcepts.git
+git remote -v
+git push -u origin master
+git config -l
+git push -u origin master
+git config --global credential.helper cache
+git add .
+git status
+git commit -m "All PHP Datatypes added"
+git push origin master
