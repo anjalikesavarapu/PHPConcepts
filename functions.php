@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-
+    <!-- Functions and return statements in PHP -->
     <?php
         function sayGreeting($name, $age) {
             echo "Hi $name  your age is $age <br>";
@@ -15,6 +15,12 @@
         sayGreeting("Anjali" ,14);
         sayGreeting("Kale", 78);
         sayGreeting("Steve", 75);
+
+        // Return value from a fuction
+        function cubeOfNumber($num) {
+            return $num * $num * $num;
+        }
+        echo cubeOfNumber(3);
     ?>
 
 </body>
