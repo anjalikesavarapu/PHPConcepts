@@ -7,8 +7,16 @@
     <title>Including HTML</title>
 </head>
 <body>
+    <!-- Including html file in php file -->
     <?php include "header.html"?>
     <p>Hello everyone </p>
+    <?php 
+        $title = "My first post";
+        $author = "Anjali";
+        include "article-header.php";
+    ?>
     <?php include "footer.html"?>
+    <!-- Including another php file inside this php file -->
+    
 </body>
 </html>
