@@ -14,13 +14,11 @@ git add .
 git status
 git commit -m "Datatypes and variables files added."
 git config --global user.name "Anjali"
-git commit -m "Datatypes and variables files added."
 git status
 git remote add origin https://github.com/anjalikesavarapu/PHPConcepts.git
 git remote -v
 git push -u origin master
 git config -l
-git push -u origin master
 git config --global credential.helper cache
 git add .
 git status
