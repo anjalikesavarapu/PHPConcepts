@@ -13,14 +13,22 @@
             var $title;
             var $author;
             var $pages;
+            //Constructors in php
+            function __construct($aTitle, $aAuthor, $aPages) {
+                $this->title=$aTitle;
+                $this->author=$aAuthor;
+                $this->pages = $aPages;
+            }
             
         }
         // creating book object
-        $book1 = new Book;
-        $book1->title="Harry Potter";
-        $book1->author="JK Rowling";
-        $book1->pages = 400;
+        $book1 = new Book("Harry Potter", "JK Rowling", 400);
+        $book2 = new Book("Lord of the rings", "Tolkien", 700);
+
         
+
+
+
     ?>
 </body>
 </html>
